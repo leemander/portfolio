@@ -10,20 +10,22 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <h1>Lee Mander</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/salmon-cookies">Salmon Cookies</Link>
-            </li>
-            <li>
-              <Link to="/odd-duck">Odd Duck Products</Link>
-            </li>
-          </ul>
-        </nav>
+        <div className="container">
+          <h1>Lee Mander</h1>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/salmon-cookies">Salmon Cookies</Link>
+              </li>
+              <li>
+                <Link to="/odd-duck">Odd Duck Products</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <Routes>
         <Route path="/" element={<Home />}></Route>

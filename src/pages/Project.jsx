@@ -3,17 +3,19 @@ export default function Project(props) {
     props.props;
   return (
     <main>
-      <h2>{title}</h2>
-      <img src={screenshot} alt={title} />
-      <p>{description}</p>
-      <h3>Skills used</h3>
-      <ul>
-        {skills.map((skill) => (
-          <li>{skill}</li>
-        ))}
-      </ul>
-      <a href={liveURL}>Live site</a>
-      <a href={repoURL}>GitHub repo</a>
+      <div className="container">
+        <h2>{title}</h2>
+        <img src={screenshot} alt={title} />
+        <p>{description}</p>
+        <h3>Skills used</h3>
+        <ul>
+          {skills.map((skill) => (
+            <li key={Math.random() * 1000}>{skill}</li>
+          ))}
+        </ul>
+        <a href={liveURL}>Live site</a>
+        <a href={repoURL}>GitHub repo</a>
+      </div>
     </main>
   );
 }

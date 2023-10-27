@@ -15,7 +15,12 @@
     "id": 2,
     "path": "/odd-duck",
     "props": {
-      "title": "Odd Duck Products"
+      "title": "Odd Duck Products",
+      "screenshot": "./src/assets/duck.png",
+      "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "skills": ["HTML", "CSS", "JavaScript", "Chart.js", "Flexbox"],
+      "liveURL": "https://leemander.github.io/odd-duck/",
+      "repoURL": "https://github.com/leemander/odd-duck"
     }
   }
 ]

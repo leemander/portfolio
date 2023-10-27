@@ -23,7 +23,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className={darkMode ? "dark" : ""}>
+      <div className={darkMode ? "app dark" : "app"}>
         <header>
           <div className="container">
             <h1>Lee Mander</h1>

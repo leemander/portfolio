@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import "./App.css";
 
+import projects from "../projects";
+
 function App() {
   return (
     <BrowserRouter>
@@ -11,26 +13,27 @@ function App() {
         <h1>Lee Mander</h1>
         <nav>
           <ul>
-            <Link to="/">Home</Link>
-          </ul>
-          <ul>
-            <Link to="/salmon-cookies">Salmon Cookies</Link>
-          </ul>
-          <ul>
-            <Link to="/odd-duck">Odd Duck Products</Link>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/salmon-cookies">Salmon Cookies</Link>
+            </li>
+            <li>
+              <Link to="/odd-duck">Odd Duck Products</Link>
+            </li>
           </ul>
         </nav>
       </header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route
-          path="/salmon-cookies"
-          element={<Project title="Salmon Cookies" />}
-        ></Route>
-        <Route
-          path="/odd-duck"
-          element={<Project title="Odd Duck Products" />}
-        ></Route>
+        {projects.map((project) => (
+          <Route
+            key={project.id}
+            path={project.path}
+            element={<Project props={project.props} />}
+          ></Route>
+        ))}
       </Routes>
     </BrowserRouter>
   );

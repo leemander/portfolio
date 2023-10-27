@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "path": "/salmon-cookies",
+    "props": {
+      "title": "Salmon Cookies",
+      "screenshot": "./src/assets/salmon.png",
+      "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "skills": ["HTML", "CSS", "JavaScript", "Chart.js", "Flexbox"],
+      "liveURL": "https://leemander.github.io/cookie-stand/",
+      "repoURL": "https://github.com/leemander/cookie-stand"
+    }
+  },
+  {
+    "id": 2,
+    "path": "/odd-duck",
+    "props": {
+      "title": "Odd Duck Products"
+    }
+  }
+]

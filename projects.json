@@ -4,7 +4,7 @@
     "path": "/salmon-cookies",
     "props": {
       "title": "Salmon Cookies",
-      "screenshot": "src/assets/salmon.png",
+      "screenshot": "portfolio/src/assets/salmon.png",
       "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       "skills": ["HTML", "CSS", "JavaScript", "Chart.js", "Flexbox"],
       "liveURL": "https://leemander.github.io/cookie-stand/",
@@ -16,7 +16,7 @@
     "path": "/odd-duck",
     "props": {
       "title": "Odd Duck Products",
-      "screenshot": "src/assets/duck.png",
+      "screenshot": "portfolio/src/assets/duck.png",
       "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       "skills": ["HTML", "CSS", "JavaScript", "Chart.js", "Flexbox"],
       "liveURL": "https://leemander.github.io/odd-duck/",
